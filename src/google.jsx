@@ -15,6 +15,7 @@ export default class Google extends React.Component {
         data-ad-layout={this.props.layout}
         data-ad-layout-key={this.props.layoutKey}
         data-ad-format={this.props.format}
+        data-adtest="on"
         data-full-width-responsive={this.props.responsive}></ins>
     );
   }
